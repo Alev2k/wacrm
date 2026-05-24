@@ -42,3 +42,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code (per-user overrides; contains secrets like SUPABASE_ACCESS_TOKEN)
+.claude/settings.local.json
